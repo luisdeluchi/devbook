@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f8f9fc, #f1f2ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-devbook {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+    background-color: #8b5cf6;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6b21a8;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.form-control {
+    height: 48px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.form-control::placeholder {
+    color: #9ca3af;
+}
+
+.btn-devbook {
+    width: 100%;
+    height: 48px;
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.btn-devbook:hover {
+    background-color: #7c3aed;
+}
+
+.link {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: #6b21a8;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

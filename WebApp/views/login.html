@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevBook - Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="card-devbook">
+        <div class="logo">
+            <svg id="visual" viewBox="0 0 100 100" width="50" height="50" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <!-- Círculo roxo como fundo -->
+                <circle cx="50" cy="50" r="50" fill="#8b5cf6" />
+
+                <!-- Símbolo "N" estilizado branco -->
+                <path d="M30 20 Q40 10 50 20 Q60 10 70 20 V80 Q60 90 50 80 Q40 90 30 80 Z" fill="white" stroke="none" />
+            </svg>
+        </div>
+        <div class="title">DevBook</div>
+        <div class="subtitle">Seja bem-vindo! Entre na sua conta.</div>
+        <form id="login">
+            <div class="mb-3">
+                <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com" required
+                    autocomplete="username" />
+            </div>
+            <div class="mb-3 position-relative">
+                <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha"
+                    required autocomplete="current-password" />
+            </div>
+            <button type="submit" class="btn-devbook">Entrar</button>
+            <a href="/criar-usuario" class="link">Não tem uma conta? Criar conta</a>
+        </form>
+    </div>
+
+    {{ template "scripts" }}
+    <script src="/assets/js/login.js"></script>
+</body>
+
+</html>
