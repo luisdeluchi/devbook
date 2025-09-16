@@ -4,7 +4,7 @@ Devbook é uma aplicação web composta por duas partes principais: uma API back
 
 ## Estrutura do Projeto
 
-- **API/**: Backend RESTful em Go, responsável por autenticação, gerenciamento de usuários, publicações e interações.
+- **API/**: Backend REST em Go, responsável por autenticação, gerenciamento de usuários, publicações e interações.
   - `main.go`: Ponto de entrada da API.
   - `src/`: Código-fonte organizado em módulos:
     - `autenticacao/`: Lógica de autenticação e geração de tokens.
